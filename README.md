@@ -223,4 +223,7 @@ Zenvyra/
 
 ## 🤝 <a name="contributing"></a>Contributing
 
-Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes.
+Contributions are welcome!  
+If you find this project useful, please consider giving it a ⭐ — it really helps and is greatly appreciated.
+
+Feel free to fork the repository and submit a pull request for any enhancements or bug fixes.
