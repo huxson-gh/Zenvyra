@@ -10,7 +10,7 @@
 ## 🌐 Live Demo
 
 🔗 **Live Website:** [Zenvyra ↗]()  
-*(Deployed on Vercel)*
+_(Deployed on Vercel)_
 
 ---
 
@@ -20,13 +20,12 @@
 - [Tech Stack](#tech-stack)
 - [Prerequisites](#prerequisites)
 - [Installation & Setup](#installation--setup)
-    - [Backend Setup](#backend-setup)
-    - [Frontend Setup](#frontend-setup)
+  - [Backend Setup](#backend-setup)
+  - [Frontend Setup](#frontend-setup)
 - [Environment Variables](#environment-variables)
 - [API Endpoints](#api-endpoints)
 - [Folder Structure](#folder-structure)
 - [Contributing](#contributing)
-
 
 ---
 
@@ -43,13 +42,12 @@
 - **Admin Panel:** Manage products, users, and orders.
 - **Payment Integration:** Secure and seamless payment processing. (Stripe and Razorpay feature currently unavailable)
 
-
-
 ---
 
 ## 🛠️ <a name="tech-stack"></a>Tech Stack
 
 **Frontend:**
+
 - **React.js:** Component-based UI library.
 - **Vite:** Next-generation frontend tooling.
 - **Tailwind CSS:** Utility-first CSS framework for styling.
@@ -59,6 +57,7 @@
 - **React Toastify:** For toast notifications.
 
 **Backend:**
+
 - **Node.js:** Runtime environment.
 - **Express.js:** Web framework for Node.js.
 - **MongoDB:** NoSQL database for data storage.
@@ -72,7 +71,8 @@
 - **Validator:** Library for string validation.
 
 **Deploment:**
-- **Vercel** 
+
+- **Vercel**
 - **Render**
 
 ---
@@ -92,18 +92,20 @@ Before running this project, ensure you have the following installed:
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/Zenvyra-Ecommerce.git
-cd Zenvyra-Ecommerce
+git clone https://github.com/your-username/Zenvyra.git
+cd Zenvyra
 ```
 
 ### <a name="backend-setup"></a>Backend Setup
 
 1.  Navigate to the `backend` directory:
+
     ```bash
     cd backend
     ```
 
 2.  Install dependencies:
+
     ```bash
     npm install
     ```
@@ -121,11 +123,13 @@ cd Zenvyra-Ecommerce
 ### <a name="frontend-setup"></a>Frontend Setup
 
 1.  Open a new terminal and navigate to the `frontend` directory:
+
     ```bash
     cd frontend
     ```
 
 2.  Install dependencies:
+
     ```bash
     npm install
     ```
@@ -145,6 +149,7 @@ cd Zenvyra-Ecommerce
 Create `.env` files in both `backend` and `frontend` directories with the following variables:
 
 **Backend (`backend/.env`):**
+
 ```env
 PORT=4000
 MONGODB_URI=your_mongodb_connection_string
@@ -155,9 +160,10 @@ CLOUDINARY_API_SECRET=your_api_secret
 ```
 
 **Frontend (`frontend/.env`):**
+
 ```env
 VITE_BACKEND_URL=http://localhost:4000
-VITE_ADMIN_PANEL=http://localhost:5173/admin # Or wherever your admin panel lives
+VITE_ADMIN_PANEL=http://localhost:5174 # Or wherever your admin panel lives
 ```
 
 ---
@@ -186,6 +192,7 @@ Zenvyra/
 │   ├── uploads/            # Initial upload storage
 │   └── server.js           # Entry point
 │
+
 ├── frontend/               # Frontend logic
 │   ├── public/
 │   ├── src/
@@ -195,8 +202,17 @@ Zenvyra/
 │   │   ├── pages/          # Page views
 │   │   ├── App.jsx         # Main component
 │   │   └── main.jsx        # Entry point
-│   ├── .env                # Env variables
-│   └── package.json
+│   └── .env                # Env variables
+│
+├── admin/                  # Admin Panel logic
+│   ├── public/
+│   ├── src/
+│   │   ├── assets/         # Admin assets
+│   │   ├── components/     # Admin components
+│   │   ├── pages/          # Admin pages (Add/List/Orders)
+│   │   ├── App.jsx         # Main component
+│   │   └── main.jsx        # Entry point
+│   └── .env                # Env variables
 │
 └── README.md
 ```
@@ -206,4 +222,3 @@ Zenvyra/
 ## 🤝 <a name="contributing"></a>Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes.
-
