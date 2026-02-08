@@ -2,6 +2,8 @@
 
 ![Node](https://img.shields.io/badge/Node.js-v14+-green.svg)
 ![React](https://img.shields.io/badge/React-v18+-blue.svg)
+![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-green.svg)
+![Vercel](https://img.shields.io/badge/Deployed-Vercel-black.svg)
 
 **Zenvyra** is a full-stack e-commerce application built with the MERN stack (MongoDB, Express, React, Node.js). It features a modern, responsive UI, secure user authentication, product management, shopping cart functionality, and order processing.
 
