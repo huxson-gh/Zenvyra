@@ -140,7 +140,7 @@ const Navbar = () => {
             CONTACT
           </NavLink>
           <a
-            href={import.meta.env.ADMIN_PANEL}
+            href={import.meta.env.VITE_ADMIN_PANEL}
             target="_blank"
             className="flex flex-col items-center gap-1"
           >
