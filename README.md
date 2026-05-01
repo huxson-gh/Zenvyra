@@ -11,7 +11,7 @@
 
 ## 🌐 Live Demo
 
-🔗 **Live Website:** [Zenvyra ↗](https://zenvyra-ecommerce.vercel.app/)  
+> 🔗 **Live Website:** [Zenvyra ↗](https://zenvyra-ecommerce.vercel.app/)  
 _(Deployed on Vercel)_
 
 ---
